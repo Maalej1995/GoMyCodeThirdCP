@@ -5,7 +5,11 @@ import Form from './Components/Form';
 
 const App = () => {
   return (
-    <Form />
+    <div className="App">
+      <header className="App-header">
+        <Form />
+      </header>
+    </div>
   );
 }
 
